@@ -1,3 +1,42 @@
+/* FONTS */
+@font-face {
+  font-family: "Inter 24pt";
+  src: url("Inter24pt-Medium.woff2") format("woff2"),
+      url("Inter24pt-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter 24pt";
+  src: url("Inter24pt-Regular.woff2") format("woff2"),
+      url("Inter24pt-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter 24pt";
+  src: url("Inter24pt-Bold.woff2") format("woff2"),
+      url("Inter24pt-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter 24pt";
+  src: url("Inter24pt-SemiBold.woff2") format("woff2"),
+      url("Inter24pt-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 /* CUSTOM PROPS */
  :root {
   --body-bg: #F1F4FF;
@@ -26,7 +65,7 @@ body  {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Inter","Arial", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
   line-height: 2.6;
   background-color: var(--body-bg);
