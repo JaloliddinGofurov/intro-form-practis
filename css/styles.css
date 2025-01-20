@@ -1,3 +1,12 @@
+/* CUSTOM PROPS */
+ :root {
+  --body-bg: #F1F4FF;
+  --green: #4DC490;
+  --blue: #655AF2;
+  --red: #F03535;
+  --text-color: #000;
+ }
+
 /* GLOBAL */
 html {
   box-sizing: border-box;
@@ -17,11 +26,11 @@ body  {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Inter","Arial", sans-serif;
   font-size: 16px;
-  line-height: 1.5;
-  background-color: #fff;
-  color: #222;
+  line-height: 2.6;
+  background-color: var(--body-bg);
+  color: var(--text-color);
 }
 
 img {
@@ -32,9 +41,9 @@ img {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1192px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -43,4 +52,6 @@ img {
 /* MAIN-CONTENT */
 .main-content {
   flex-grow: 1;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
