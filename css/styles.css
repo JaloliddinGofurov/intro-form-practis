@@ -36,7 +36,6 @@
 }
 
 
-
 /* CUSTOM PROPS */
  :root {
   --body-bg: #F1F4FF;
@@ -93,4 +92,62 @@ img {
   flex-grow: 1;
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+/* INTRO-PAGE */
+.intro-page {
+  display: flex;
+}
+.hero {
+  --text-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 570px;
+  border-radius: 20px;
+  overflow: hidden;
+  color: var(--text-color);
+}
+.hero-main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 55px 60px;
+  background-color: #555;
+  background-image: url("../img/hero-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.hero-badge {
+  border: 1px solid var(--text-color);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: normal;
+  border-radius:  41px;
+  padding: 5px 15px;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+.hero-heading {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: bold;
+}
+.hero-text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+.hero-bottom {
+  background-color: var(--green);
+  text-align: center;
+  padding-top: 29px;
+  padding-bottom: 29px;
+  font-size: 19px;
+  line-height: auto;
 }
